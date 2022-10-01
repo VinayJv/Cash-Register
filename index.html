@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Cash Register/style.css">
+    <script src="/Cash Register/main.js" defer></script>
+</head>
+
+<body>
+    <h1 class="heading">Cash Register Manager</h1>
+    <p class="subheading">Enter the bill amount and cash given by the customer and know minimum number of notes to
+        return.</p>
+    <div class="sec2">
+        <label for="BillAmt">Bill Amount</label>
+        <input type="number" id="BillAmt" placeholder="Enter Bill Amount">
+        <label for="CashGiven">Cash Given</label>
+        <input type="number" id="CashGiven" placeholder="Cash Given">
+        <button id="submit">Check</button>
+    </div>
+    <div id="PoorGuy"></div>
+    <div class="sec3">
+        <table>
+            <caption>Return Change</caption>
+            <tr>
+                <th>Notes </th>
+                <td>2000 </td>
+                <td>500 </td>
+                <td>100</td>
+                <td>20</td>
+                <td>10 </td>
+                <td>5 </td>
+                <td>1 </td>
+            </tr>
+            <tr>
+                <th>No. of Notes </th>
+                <td id="tNote"></td>
+                <td id="fNote"></td>
+                <td id="hNote"></td>
+                <td id="twNote"></td>
+                <td id="tenNote"></td>
+                <td id="fiNote"></td>
+                <td id="onNote"></td>
+            </t id=""r
+        </table>
+    </div>
+</body>
+
+</html>
