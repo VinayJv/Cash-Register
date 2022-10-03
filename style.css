@@ -98,3 +98,31 @@ button:active {
     padding-right: 80px;
     padding-bottom: 40px;
 }
+footer {
+    padding-bottom: 3rem;
+    position: fixed;
+    bottom: 0;
+}
+h3 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--color3);
+}
+.socialhandles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socialhandles>a>img {
+    width: 5rem;
+    padding: 0 1rem 0 1rem;
+    cursor: pointer;
+}
+.copyright>p {
+    padding-top: 2rem;
+    text-align: center;
+    color: var(--color3);
+    font-size: 2rem;
+}
